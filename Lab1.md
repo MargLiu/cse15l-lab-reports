@@ -25,12 +25,12 @@
 
 ## Trying Some Commands
 1. Now you can run commands like:
-    - 'cd' : 
-    - 'ls' : 
-    - 'pwd' :
-    - 'mkdir' :
-    - 'cp' :
-    - 'ls -lat' :
+    - 'cd' : change directory
+    - 'ls' : list current directory
+    - 'pwd' : print working directory
+    - 'mkdir' : make new directory
+    - 'cp' : 
+    - 'ls -lat' : 
     - Ctrl-D or 'exit' : to log out of the remote server in your terminal
 ![Image](Commands.png)
 
