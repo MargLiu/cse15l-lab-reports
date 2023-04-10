@@ -19,10 +19,18 @@
     $ ssh cs15lsp23py@ieng6.ucsd.edu
     '''
     - where the 'py' is your own letters from your course-specific account
-![Image]
+![Image](Password.png)
 3. Type in your password and you should be logged into the remote server
-![Image]
+![Image](RemoteServer.png)
 
 ## Trying Some Commands
-1. 
+1. Now you can run commands like:
+    - 'cd' : 
+    - 'ls' : 
+    - 'pwd' :
+    - 'mkdir' :
+    - 'cp' :
+    - 'ls -lat' :
+    - Ctrl-D or 'exit' : to log out of the remote server in your terminal
+![Image](Commands.png)
 
