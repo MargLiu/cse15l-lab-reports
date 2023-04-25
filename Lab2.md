@@ -80,4 +80,7 @@ class StringServer {
     }
   }
   ```
+  
+  **Part 3**
+  Something that I learned was about the different functions in the URL. I wasn't aware that certain letters or characters had a constant meaning, and depending on the placement of the words, they could mean different things. 
 
