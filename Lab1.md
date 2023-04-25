@@ -15,9 +15,9 @@
 ## Remotely Connecting
 1. A mac should already have 'git' installed.
 2. Open a terminal in VSCode (either Ctrl or Command + ', or Terminal --> New Terminal menu option) and use this command
-    '''
+    ```
     $ ssh cs15lsp23py@ieng6.ucsd.edu
-    '''
+    ```
     - where the 'py' is your own letters from your course-specific account
 ![Image](Password.png)
 3. Type in your password and you should be logged into the remote server
