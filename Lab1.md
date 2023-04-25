@@ -1,4 +1,3 @@
-# Lab Report 1
 *Directions:*
 * have at least 3 screenshots (one for each of the steps below)
 * each step include 2-3 sentences/bullet points describing what you did (if for some reason you didn't do the step exactly, describe why not; maybe your computer already had something on it, etc)
