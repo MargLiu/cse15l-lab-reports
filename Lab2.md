@@ -90,5 +90,5 @@ This symptom showed that in the output int array, instead of the expected value 
   This fixed the above issue by making sure that the values get properly switched. I made sure to store the input array into a separate array. Now in the for loop, the value taken to store into the input array will be from the separate array. This prevents the values from overlapping.
   
   ## Part 3
-  Something that I learned was about the different functions in the URL. I wasn't aware that certain letters or characters had a constant meaning, and depending on the placement of the words, they could mean different things. 
+  Something that I learned during week 3 was about the different functions in the URL. I wasn't aware that certain letters or characters had a constant meaning, and depending on the placement of the words, they could mean different things. 
 
