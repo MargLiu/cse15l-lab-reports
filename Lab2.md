@@ -1,5 +1,8 @@
 # Lab Report 2
-**Part 1**
+Servers and Bugs (Week 3): In this lab, we practiced how to run tests using methods called 'assertEquals' and 'assertArrayEquals' and other 'assert...' methods. This way, we will be able to find out if there are any bugs in our code.
+
+## Part 1
+This is a webserver called 'StringServer' that keeps track of a single string that gets added to by incoming requests.
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -34,7 +37,7 @@ class StringServer {
 ![Image](HowAreYou.png)
 * The method that was called was `handleRequest()`. This is the second message I added to the URL, however, the first message was replaced with the new message.
 
-**Part 2**
+## Part 2
 * A failure-inducing input for the bug in reverseInPlace()
 ```
 @Test
@@ -44,6 +47,7 @@ class StringServer {
     assertArrayEquals(new int[]{3, 2, 1}, input2);
   }
 ```
+This input would show that the original code didn't actually reverse the input correctly. Since the int array replaces itself, the actual output does not equal the expected output.
 
 * An input that *doesn't* induce a failure
 ```
@@ -57,6 +61,7 @@ class StringServer {
 
 * The symptom
 ![Image](Symptom.png)
+This symptom showed that in the output int array, instead of the expected value <1>, the actual value was <3>, and instead of the expected value <3>, the actual value was <1>. This shows that the 'reverseInPlace' method was not actually able to reverse the input array.
 
 * The bug
   *before*
@@ -81,6 +86,6 @@ class StringServer {
   }
   ```
   
-  **Part 3**
+  ## Part 3
   Something that I learned was about the different functions in the URL. I wasn't aware that certain letters or characters had a constant meaning, and depending on the placement of the words, they could mean different things. 
 
