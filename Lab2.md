@@ -71,6 +71,8 @@ This symptom showed that in the output int array, instead of the expected value 
       arr[i] = arr[arr.length - i - 1];
     }
   ```
+  The bug in this code was the code inside the for loop. Because values are taken out of the array 'arr' and placed back into 'arr', the values of the array weren't properly reversed. The bug made it so that the value at index 0 is switched with the last value. However when it came to switching the value at the last index with the original value at index 0, the value found at index 0 is the one already switched.
+  
   *after*
   ```
   static void reverseInPlace(int[] arr) {  
@@ -85,6 +87,7 @@ This symptom showed that in the output int array, instead of the expected value 
     }
   }
   ```
+  This fixed the above issue by making sure that the values get properly switched. I made sure to store the input array into a separate array. Now in the for loop, the value taken to store into the input array will be from the separate array. This prevents the values from overlapping.
   
   ## Part 3
   Something that I learned was about the different functions in the URL. I wasn't aware that certain letters or characters had a constant meaning, and depending on the placement of the words, they could mean different things. 
