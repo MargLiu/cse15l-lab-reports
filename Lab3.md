@@ -6,11 +6,11 @@ This option ignores uppercase and lowercase
 ```
 grep -r "INFLAMMATORY" technical/plos > grep-results.txt
 ```
-![Image](inflammatoryex.png)
+![Image](INFLAMMATORYex.png)
 ```
 grep -r -i "INFLAMMATORY" technical/plos > grep-results.txt
 ```
-![Image](inflammex.png)
+![Image](inflammEX.png)
 
 ## `-l`
 This option outputs only the filenames of the matches, instead of the entire line containing the matched word.
