@@ -2,7 +2,7 @@
 I researched about the command `grep` and 4 of its options.
 
 ## `-i`
-This option ignores uppercase and lowercase.
+This option ignores uppercase and lowercase
 ```
 grep -r "INFLAMMATORY" technical/plos > grep-results.txt
 ```
