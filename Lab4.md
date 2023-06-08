@@ -1,6 +1,6 @@
-#Lab 4
+# Lab 4
 
-##Step 5
+## Step 5
 ![Image](Step5.png)
 ```
 git clone https://github.com/MargLiu/lab7
@@ -8,7 +8,7 @@ cd lab7
 ```
 Following the steps, I first clone the repository from my github page using the URL. I then change directly into *lab7*.
 
-##Step 6
+## Step 6
 ![Image](Step6.png)
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
@@ -16,7 +16,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 I first compile all the *.java* files in the directory, and then I run the tests. As shown in the screenshot, it shows that there's a failed test.
 
-##Step 7 & Step 8
+## Step 7 & Step 8
 ![Image](Step7+8.png)
 ```
 vim ListExamples.java
@@ -34,7 +34,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 I have to go up because the compile command was two up in the history. I do the same thing for the run command.
 
-##step 9
+## step 9
 ![Image](Step9.png)
 ```
 git add *.class
